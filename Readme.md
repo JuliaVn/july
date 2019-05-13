@@ -1,6 +1,6 @@
 # Личный проект «Нёрдс»
 
-* Студент: [Юлия Винник](https://up.htmlacademy.ru/htmlcss/25/user/475651).
+* Студент: [Юлия Ильченко](https://up.htmlacademy.ru/htmlcss/25/user/475651).
 * Наставник: [Артём Ильченко] (https://htmlacademy.ru/profile/id375383).
 
 ---
