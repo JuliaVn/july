@@ -1,6 +1,6 @@
 # Личный проект «Нёрдс»
 
-* Студент: [Маргарита Старикова](https://up.htmlacademy.ru/htmlcss/25/user/475651).
+* Студент: [Юлия Винник](https://up.htmlacademy.ru/htmlcss/25/user/475651).
 * Наставник: [Артём Ильченко] (https://htmlacademy.ru/profile/id375383).
 
 ---
