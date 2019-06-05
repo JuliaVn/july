@@ -3,6 +3,9 @@
 	<head>
 		<meta charset="utf-8">
 		<title>HTML Academy: Нёрдс</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
 	</head>
 	<body>
 		<header class="main-header">
@@ -24,7 +27,57 @@
 			<section class="main-filters">
 				<section class="filter">
 					<h2 class="visually-hidden">Фильтр шаблонов</h2>
-					<!--forma -->
+					<form class="filter-form">
+						<fieldset class="cost">
+							<legend>Стоимость:</legend>
+							<!--forma -->
+						</fieldset>
+						<fieldset class="grid">
+							<legend>Сетка:</legend>
+							<ul class="filter-grid">
+								<li>
+									<input class="filter-input filter-input-radio" type="radio" name="grid" value="adaptive" id="filter-adaptive" checked>
+									<label for="filter-lebel filter-adaptive">Адаптивная</label>
+								</li>
+								<li>
+									<input class="filter-input filter-input-radio" type="radio" name="grid" value="fixed" id="filter-fixed">
+									<label for="filter-lebel filter-fixed">Фиксированная</label>
+								</li>
+								<li>
+									<input class="filter-input filter-input-radio" type="radio" name="grid" value="rubber" id="filter-rubber">
+									<label for="filter-lebel filter-rubber">Резиновая</label>
+								</li>
+							</ul>
+						</fieldset>
+						<fieldset class="features">
+							<legend>Особенности:</legend>
+							<ul class="filter-features">
+								<li>
+									<input class="filter-input filter-input-checkbox" type="checkbox" name="slider" id="filter-slider" checked>
+									<label for="filter-lebel filter-slider">Слайдер</label>
+								</li>
+								<li>
+									<input class="filter-input filter-input-checkbox" type="checkbox" name="advantage_block" id="filter-advantage-block">
+									<label for="filter-lebel filter-advantage-block">Блок преимуществ</label>
+								</li>
+								<li>
+									<input class="filter-input filter-input-checkbox" type="checkbox" name="news" id="filter-news" checked>
+									<label for="filter-lebel filter-news">Новости</label>
+								</li>
+								<li>
+									<input class="filter-input filter-input-checkbox" type="checkbox" name="gallery" id="filter-gallery">
+									<label for="filter-lebel filter-gallery">Галерея</label>
+								</li>
+								<li>
+									<input class="filter-input filter-input-checkbox" type="checkbox" name="basket" id="filter-basket">
+									<label for="filter-lebel filter-basket">Корзина</label>
+								</li>
+							</ul>
+						</fieldset>
+						<button  class="filter-button button" type="submit">
+						    Показать
+						</button>
+					</form>
 				</section>
 				<section class="sorting">
 					<h2 class="visually-hidden">Сортировка</h2>
@@ -128,8 +181,21 @@
 		</footer>
 		<section class="letters">
 			<h2>Напишите нам</h2>
-			<!-- форма -->
-			<span class="modal-close">x</span>
+			<form class="appointment-form">
+				<p>
+					<label for="name">Ваше имя:</label>
+					<input class="user_name" id="name" type="text" name="user_name" value="" placeholder="Имя Фамилия">
+				</p>
+				<p>
+					<label for="email">Ваш e-mail:</label>
+					<input class="user_email" id="email" type="text" name="user_email" value="" placeholder="email@example.com">
+				</p>
+				<textarea class="text_letter" name="letter" cols="" rows="">Текст комментария</textarea>
+				<button class="button" type="submit">Отправить</button>
+			</form>
+			<button class="modal-close" type="button">
+			Закрыть
+			</button>
 		</section>
 	</body>
 </html>
