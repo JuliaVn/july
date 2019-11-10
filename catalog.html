@@ -23,9 +23,7 @@
 			</nav>
 		</header>
 		<main>
-			<div class="main-title-fon">
-				<h1 class="main-title box">Магазин готовых шаблонов</h1>
-			</div>
+			<h1 class="main-title box">Магазин готовых шаблонов</h1>
             <div class="main-container box">
 				<section class="filter">
 					<h2 class="visually-hidden">Фильтр шаблонов</h2>
@@ -49,16 +47,16 @@
 						<fieldset class="grid">
 							<legend>Сетка:</legend>
 							<ul class="filter-grid">
-								<li>
-									<input class="filter-input filter-input-radio" type="radio" name="grid" value="adaptive" id="filter-adaptive" checked>
+								<li class="filter-option">
+									<input class="filter-input filter-input-radio visually-hidden" type="radio" name="grid" value="adaptive" id="filter-adaptive" checked>
 									<label class="filter-label" for="filter-adaptive">Адаптивная</label>
 								</li>
-								<li>
-									<input class="filter-input filter-input-radio" type="radio" name="grid" value="fixed" id="filter-fixed">
+								<li class="filter-option">
+									<input class="filter-input filter-input-radio visually-hidden" type="radio" name="grid" value="fixed" id="filter-fixed">
 									<label class="filter-label" for="filter-fixed">Фиксированная</label>
 								</li>
-								<li>
-									<input class="filter-input filter-input-radio" type="radio" name="grid" value="rubber" id="filter-rubber">
+								<li class="filter-option">
+									<input class="filter-input filter-input-radio visually-hidden" type="radio" name="grid" value="rubber" id="filter-rubber">
 									<label class="filter-label" for="filter-rubber">Резиновая</label>
 								</li>
 							</ul>
@@ -66,25 +64,25 @@
 						<fieldset class="features">
 							<legend>Особенности:</legend>
 							<ul class="filter-features">
-								<li>
-									<input class="filter-input filter-input-checkbox" type="checkbox" name="slider" id="filter-slider" checked>
+								<li class="filter-option">
+									<input class="filter-input filter-input-checkbox visually-hidden" type="checkbox" name="features" value="slider" id="filter-slider" checked>
 									<label class="filter-label" for="filter-slider">Слайдер</label>
 								</li>
-								<li>
-									<input class="filter-input filter-input-checkbox" type="checkbox" name="advantage_block" id="filter-advantage-block">
+								<li class="filter-option">
+									<input class="filter-input filter-input-checkbox visually-hidden" type="checkbox" name="features" value="advantage_block" id="filter-advantage-block">
 									<label class="filter-label" for="filter-advantage-block">Блок преимуществ</label>
 								</li>
-								<li>
-									<input class="filter-input filter-input-checkbox" type="checkbox" name="news" id="filter-news" checked>
+								<li class="filter-option">
+									<input class="filter-input filter-input-checkbox visually-hidden" type="checkbox" name="features" value="news" id="filter-news" checked>
 									<label class="filter-label" for="filter-news">Новости</label>
 								</li>
-								<li>
-									<input class="filter-input filter-input-checkbox" type="checkbox" name="gallery" id="filter-gallery">
+								<li class="filter-option">
+									<input class="filter-input filter-input-checkbox visually-hidden" type="checkbox" name="features" value="gallery" id="filter-gallery">
 									<label class="filter-label" for="filter-gallery">Галерея</label>
 								</li>
-								<li>
-									<input class="filter-input filter-input-checkbox" type="checkbox" name="basket" id="filter-basket">
-									<label for="filter-lebel filter-basket">Корзина</label>
+								<li class="filter-option">
+									<input class="filter-input filter-input-checkbox visually-hidden" type="checkbox" name="features" value="basket" id="filter-basket" disabled>
+									<label class="filter-label" for="filter-basket">Корзина</label>
 								</li>
 							</ul>
 						</fieldset>
@@ -97,14 +95,14 @@
 					<section class="sorting">
 						<h2 class="visually-hidden">Сортировка</h2>
 						<h3>Сортировать:</h3>
-						<div class="sorting-item-wrapper">
-							<ul class="sorting-item">
-								<li>По цене</li>
-								<li>По типу</li>
-								<li>По названию</li>
+						<div class="sorting-items-wrapper">
+							<ul class="sorting-items">
+								<li><a href="#" class="sorting-item sorting-item-current">По цене</a></li>
+								<li><a href="#" class="sorting-item">По типу</a></li>
+								<li><a href="#" class="sorting-item"> По названию</a></li>
 							</ul>
-							<button class="icon-down"></button>
-							<button class="icon-up"></button>
+							<button class="icon-down icon-current"><a href="#"></a></button>
+							<button class="icon-up"><a href="#"></a></button>
 						</div>
 					</section>
 					<section class="templates">
@@ -203,10 +201,11 @@
 							ул. Б. Конюшенная, д. 19/8<br>
 							<span class="number">тел. +7 (812) 275-75-75</span>
 						</p>
-						<a href="#" class="button">Напишите нам</a>
+						<a href="#" class="button enter-link">Напишите нам</a>
 					</address>
 				</div>
 				<div class="map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253002806!2d30.320858715677204!3d59.93871916905467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCDQoNC-0YHRgdC40Y8sIDE5MTE4Ng!5e0!3m2!1sru!2sua!4v1572363689498!5m2!1sru!2sua" width="100%" height="416" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 					<img src="img/map_nerds.jpg" class="map-img" alt="Санкт-Петербург, ул. Б. Конюшенная, д. 19/8" >
 				</div>
 			</div>
@@ -234,26 +233,30 @@
 				</div>
 			</section>
 		</footer>
-		<section class="letters box">
-			<h2>Напишите нам</h2>
-			<form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
-				<div class="appointment-item">
-					<label for="name">Ваше имя:</label>
-					<input class="user_name" id="name" type="text" name="user_name" value="" placeholder="Имя Фамилия" required>
-				</div>
-				<div class="appointment-item">
-					<label for="email">Ваш e-mail:</label>
-					<input class="user_email" id="email" type="text" name="user_email" value="" placeholder="email@example.com">
-				</div>
-				<div class="appointment-item-coment">
-					<label for="coment">Текст письма:</label>
-					<textarea class="text_letter" id="coment" name="letter" cols="" rows="" placeholder="В свободной форме"></textarea>
-				</div>
-				<button class=" button btn-submit" type="submit">Отправить</button>
-			</form>
-			<button class="modal-close" type="button">
-			Закрыть
-			</button>
-		</section>
+		<div class="letters-wrp">
+			<section class="letters box">
+				<h2>Напишите нам</h2>
+				<form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
+					<div class="appointment-item">
+						<label for="name">Ваше имя:</label>
+						<input class="user_name" id="name" type="text" name="user_name" value="" placeholder="Имя Фамилия" >
+					</div>
+					<div class="appointment-item">
+						<label for="email">Ваш e-mail:</label>
+						<input class="user_email" id="email" type="text" name="user_email" value="" placeholder="email@example.com" >
+					</div>
+					<div class="appointment-item-coment">
+						<label for="coment">Текст письма:</label>
+						<textarea class="text_letter" id="coment" name="letter" cols="" rows="" placeholder="В свободной форме" ></textarea>
+					</div>
+					<button class=" button btn-submit" type="submit">Отправить</button>
+				</form>
+				<button class="modal-close" type="button">
+				Закрыть
+				</button>
+			</section>
+			<div class="letters-overlay"></div>
+	    </div>
+	<script src="js/script.js"></script>
 	</body>
 </html>

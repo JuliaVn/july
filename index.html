@@ -112,22 +112,22 @@
 			<section class="slide-logo box">
 				<ul class="logos">
 					<li class="logo htmlacademy">
-						<a href="https://htmlacademy.ru/intensive/htmlcss" target="_blank">
+						<a class="logo-img" href="https://htmlacademy.ru/intensive/htmlcss" target="_blank">
 							<img src="img/logo-1.png" alt="HTMLAcademy" width="199" height="68">
 						</a>
 					</li>
 					<li class="logo borodinski">
-						<a href="#">
+						<a class="logo-img" href="#">
 							<img src="img/logo-2.png" alt="Borodinski" width="209" height="87">
 						</a>
 					</li>
 					<li class="logo pink">
-						<a href="#">
+						<a class="logo-img" href="#">
 							<img src="img/logo-3.png" alt="Pink" width="185" height="52">
 						</a>
 					</li>
 					<li class="logo mishka">
-						<a href="#">
+						<a class="logo-img" href="#">
 							<img src="img/logo-4.png" alt="Mishka" width="173" height="84">
 						</a>
 					</li>
@@ -141,12 +141,13 @@
 						<b>Nёrds Design Studio</b>
 						<p>191186, Санкт-Петербург,<br>
 							ул. Б. Конюшенная, д. 19/8<br>
-							<span class="number">тел. +7 (812) 275-75-75</span>
+							<span class="number" x-ms-format-detection="none">тел. +7 (812) 275-75-75</span>
 						</p>
-						<a href="#" class="button">Напишите нам</a>
+						<a href="#" class="button enter-link">Напишите нам</a>
 					</address>
 			    </div>
 				<div class="map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253002806!2d30.320858715677204!3d59.93871916905467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCDQoNC-0YHRgdC40Y8sIDE5MTE4Ng!5e0!3m2!1sru!2sua!4v1572363689498!5m2!1sru!2sua" width="100%" height="416" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 					<img src="img/map_nerds.jpg" class="map-img" alt="Санкт-Петербург, ул. Б. Конюшенная, д. 19/8" >
 				</div>
 			</div>
@@ -174,26 +175,30 @@
 				</div>
 			</section>
 		</footer>
-		<section class="modal letters">
-			<h2>Напишите нам</h2>
-			<form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
-				<div class="appointment-item">
-					<label for="name">Ваше имя:</label>
-					<input class="user_name" id="name" type="text" name="user_name" value="" placeholder="Имя Фамилия" required>
-				</div>
-				<div class="appointment-item">
-					<label for="email">Ваш e-mail:</label>
-					<input class="user_email" id="email" type="text" name="user_email" value="" placeholder="email@example.com">
-				</div>
-				<div class="appointment-item-coment">
-					<label for="coment">Текст письма:</label>
-					<textarea class="text_letter" id="coment" name="letter" cols="" rows="" placeholder="В свободной форме"></textarea>
-				</div>
-				<button class=" button btn-submit" type="submit">Отправить</button>
-			</form>
-			<button class="modal-close" type="button">
-			Закрыть
-			</button>
-		</section>
+		<div class="letters-wrp">
+			<section class="modal letters">
+				<h2>Напишите нам</h2>
+				<form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
+					<div class="appointment-item">
+						<label for="name">Ваше имя:</label>
+						<input class="user_name" id="name" type="text" name="user_name" value="" placeholder="Имя Фамилия" >
+					</div>
+					<div class="appointment-item">
+						<label for="email">Ваш e-mail:</label>
+						<input class="user_email" id="email" type="text" name="user_email" value="" placeholder="email@example.com" >
+					</div>
+					<div class="appointment-item-coment">
+						<label for="coment">Текст письма:</label>
+						<textarea class="text_letter" id="coment" name="letter" cols="" rows="" placeholder="В свободной форме" ></textarea>
+					</div>
+					<button class=" button btn-submit" type="submit">Отправить</button>
+				</form>
+				<button class="modal-close" type="button">
+				Закрыть
+				</button>
+			</section>
+			<div class="letters-overlay"></div>
+	    </div>
+	<script src="js/script.js"></script>
 	</body>
 </html>
