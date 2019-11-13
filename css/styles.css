@@ -36,7 +36,7 @@ img {
     border: none;
     text-align: center;
     vertical-align: middle;
-    padding: 18px 39px;
+    padding: 16px 39px;
     text-transform: uppercase;
 	display: inline-block;
 	background-color: #fb565a;
@@ -55,8 +55,8 @@ img {
 }
 
 .main-header {
-    padding-bottom: 18px;
-    padding-top: 50px;
+    padding-bottom: 11px;
+    padding-top: 57px;
     width: 100%;
     background-color: #eeeeee;
 }
@@ -89,7 +89,7 @@ img {
 .main-header-logo {
 	width: 160px;
 	height: 65px;
-	margin-right: 202px;
+	margin: -9px 202px 9px 0;
 }
 
 
@@ -118,7 +118,7 @@ img {
 }
 	
 .site-navigation a {
-	padding-right: 45px;
+	padding-right: 46px;
 }
 
 .site-navigation a:hover,
@@ -159,7 +159,7 @@ img {
 	bottom: 0;
 	right: 45px;
 	left: 0;
-	bottom: 0;
+	bottom: -5px;
 }
 
 .sliders {
@@ -169,14 +169,14 @@ img {
 }
 
 .slider {
-	padding-top: 67px;
+	padding-top: 59px;
 	padding-bottom: 65px;
 }
 
 .slider-wrp {
-	min-height: 413px;
+	min-height: 411px;
 	background-repeat: no-repeat;
-	background-position: 100% 0%;
+	background-position: 90% 0%;
 	display: flex;
 	align-items: center;
 }
@@ -193,10 +193,14 @@ img {
 
 .slider-description {
 	color: #283136;
-	width: 410px;
+	width: 365px;
 	padding: 0;
 	margin: 0;
-	margin-bottom: 42px;
+	margin-bottom: 40px;
+}
+
+.btn-slider {
+	min-width: 162px;
 }
 
 .slider-1 {
@@ -315,7 +319,7 @@ img {
  	position: relative;
 	padding-top: 172px;
 	margin-right: 100px;
-	margin-bottom: 80px;
+	margin-bottom: 84px;
 }
 
 .services-item:nth-child(3n) {
@@ -328,13 +332,14 @@ img {
     line-height: 30px;
     text-transform: uppercase;
     margin: 0;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .services p {
 	color: #283136;
 	margin: 0;
-	margin-bottom: 35px;
+	margin-bottom: 32px;
+	max-width: 260px;
 }
 
 .services-item::before {
@@ -392,7 +397,7 @@ img {
 .about {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 76px;
+	margin-bottom: 49px;
 }
 
 .info {
@@ -404,32 +409,34 @@ img {
     font-size: 45px;
     font-weight: 500;
     line-height: 45px;
-    margin-top: 40px;
+    margin-top: 33px;
     margin-bottom: 35px;
 }
 
 .sentence {
 	color: #283136;
 	margin: 0;
-	margin-bottom: 47px;
+	margin-bottom: 38px;
 }
 
 .orders {
 	font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 25px;
+	margin-bottom: 24px;
+	display: inline-block;
 }
 
 .list-order {
 	color: #283136;
 	list-style: none;
 	padding: 0;
+	margin: 0;
 }
 
 .list-order li {
-	margin-bottom: 20px;
+	margin-bottom: 24px;
 	position: relative;
-	padding-left: 40px;
+	padding-left: 37px;
 }
 
 .list-order li::before {
@@ -445,14 +452,14 @@ img {
 }
 
 .main-logo-2 {
-	margin-bottom: 41px;
+	margin-bottom: 36px;
 }
 
 .title-percent {
     font-weight: 700;  
     text-transform: uppercase;
     margin: 0;
-	margin-bottom: 49px;
+	margin-bottom: 46px;
 	text-align: center;
 }
 
@@ -461,12 +468,12 @@ img {
 	padding: 0;
 	margin: 0;
 	flex-wrap: wrap;
-    margin-left: -25px;
+    margin-left: -17px;
 }
 
 .items li {
 	max-width: 102px;
-    margin-left: 25px;
+    margin-left: 17px;
     margin-bottom: 10px;
 }
 
@@ -505,7 +512,7 @@ img {
 }
 
 .slide-logo {
-	padding-top: 45px;
+	padding-top: 49px;
 	border-top: 2px solid #eeeeee;
 	border-bottom: 2px solid #eeeeee;
 	margin-bottom: 80px;
@@ -777,7 +784,7 @@ img {
     font-weight: 700;
     line-height: 30px;
     text-transform: uppercase;
-    margin-bottom: 32px;
+    margin-bottom: 22px;
     display: inline-block;
 }
 
@@ -814,12 +821,15 @@ img {
 	font-size: 36px;
 	font-weight: 700;
 	line-height: 36px;
+	margin-top: 5px;
+    display: inline-block;
 }
 
 .footer-social p {
 	color: #444444;
 	font-weight: 400;
 	line-height: 22px;
+    margin-top: 11px;
 }
 
 .footer-social-media {
@@ -868,8 +878,8 @@ img {
 	font-weight: 500;
 	line-height: 55px;
 	text-align: center;
-    padding-top: 82px;
-	padding-bottom: 116px;
+    padding-top: 59px;
+	padding-bottom: 109px;
 	background-color: #eeeeee;
 	width: 100%;
 	margin-bottom: 60px;
@@ -986,16 +996,13 @@ img {
 .cost legend {
 	font-size: 18px;
 	font-weight: 700;
-	line-height: 30px;
+	line-height: 1em;
 	text-transform: uppercase;
 }
 
 .cost legend {
 	letter-spacing: 0.05px;
-}
-
-.range-filter {
-	margin-top: 46px;
+	margin-bottom: 55px;
 }
 
 .range-controls {
@@ -1081,7 +1088,7 @@ img {
 
 .filter-grid li,
 .filter-features li {
-	margin-bottom: 10px;
+	margin-bottom: 16px;
 }
 
 .filter-label,
@@ -1096,7 +1103,7 @@ img {
 }
 
 .filter-option {
-	padding-left: 45px;
+	padding-left: 37px;
 }
 
 .filter-label {
@@ -1109,7 +1116,7 @@ img {
 	content: "";
 	position: absolute;
 	top: 50%;
-	left: -45px;
+	left: -35px;
 	border: 4px solid rgba(77, 77, 77, 0.4);
 	width: 18px;
 	height: 18px;
@@ -1125,7 +1132,7 @@ img {
 	background-color: rgba(77, 77, 77, 0.4);
 	border-radius: 50%;
 	top: 50%;
-	left: -37px;
+	left: -27px;
 	transform: translateY(-50%);
 }
 
@@ -1156,7 +1163,7 @@ img {
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	top: 50%;
-	left: -45px;
+	left: -35px;
 	transform: translateY(-50%);
 	opacity: 0.4;
 }
@@ -1195,16 +1202,16 @@ fieldset {
 }
 
 .grid {
-	margin-bottom: 30px;
+	margin-bottom: 32px;
 }
 
 .features {
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 }
 
 .grid legend,
 .features legend {
-	margin-bottom: 10px;
+	margin-bottom: 22px;
 }
 
 .filter-button {
@@ -1280,8 +1287,8 @@ fieldset {
 .pop-up-wrapper {
 	padding-top: 35px;
 	padding-bottom: 30px;
-	padding-left: 65px;
-	padding-right: 65px;
+	padding-left: 80px;
+	padding-right: 80px;
 	box-sizing: border-box;
 }
 
@@ -1328,7 +1335,7 @@ fieldset {
 }
 
 .pagination {
-	margin-bottom: 50px;
+	margin-bottom: 48px;
 }
 
 .pagination-list {
